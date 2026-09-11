@@ -1,11 +1,4 @@
-/* =========================================================
-   MOHAMMED SALMAN — AVIATION PORTFOLIO JS
-========================================================= */
 
-
-/* =========================================================
-   PAGE LOADER
-========================================================= */
 
 window.addEventListener("load", () => {
 
@@ -20,9 +13,7 @@ window.addEventListener("load", () => {
 });
 
 
-/* =========================================================
-   CUSTOM CURSOR
-========================================================= */
+
 
 const cursor = document.querySelector(".cursor");
 const cursorRing = document.querySelector(".cursor-ring");
@@ -59,7 +50,7 @@ function animateCursor() {
 animateCursor();
 
 
-/* Cursor Hover */
+
 
 const hoverElements = document.querySelectorAll(
     "a, button, .about-card, .skill-pills span"
@@ -86,9 +77,7 @@ hoverElements.forEach((element) => {
 });
 
 
-/* =========================================================
-   SCROLL REVEAL
-========================================================= */
+
 
 const revealElements = document.querySelectorAll(
     ".about-card, .skill, .timeline-item, .boarding-pass, .contact-card"
@@ -128,9 +117,7 @@ revealElements.forEach((element) => {
 });
 
 
-/* =========================================================
-   SKILL BARS
-========================================================= */
+
 
 const skills = document.querySelectorAll(".skill");
 
@@ -161,9 +148,7 @@ skills.forEach((skill) => {
 });
 
 
-/* =========================================================
-   NAVBAR SCROLL EFFECT
-========================================================= */
+
 
 const navbar = document.querySelector(".navbar");
 
@@ -182,9 +167,7 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =========================================================
-   BACK TO TOP
-========================================================= */
+
 
 const topButton = document.getElementById("topBtn");
 
@@ -213,9 +196,7 @@ topButton.addEventListener("click", () => {
 });
 
 
-/* =========================================================
-   PARALLAX AVIATION EFFECT
-========================================================= */
+
 
 const heroPhoto = document.querySelector(".hero-photo-area");
 
@@ -232,9 +213,7 @@ document.addEventListener("mousemove", (e) => {
 });
 
 
-/* =========================================================
-   RANDOM AVIATION LIGHTS
-========================================================= */
+
 
 const sky = document.querySelector(".sky-background");
 
@@ -276,10 +255,6 @@ for (let i = 0; i < 35; i++) {
 }
 
 
-/* =========================================================
-   DYNAMIC LIGHT ANIMATION
-========================================================= */
-
 const dynamicStyle = document.createElement("style");
 
 dynamicStyle.innerHTML = `
@@ -303,9 +278,7 @@ dynamicStyle.innerHTML = `
 document.head.appendChild(dynamicStyle);
 
 
-/* =========================================================
-   ACTIVE NAVIGATION
-========================================================= */
+
 
 const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll("nav a");
@@ -342,9 +315,7 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =========================================================
-   SMOOTH BUTTON MOVEMENT
-========================================================= */
+
 
 document.querySelectorAll("a[href^='#']").forEach((link) => {
 
@@ -371,9 +342,7 @@ document.querySelectorAll("a[href^='#']").forEach((link) => {
 });
 
 
-/* =========================================================
-   CONSOLE
-========================================================= */
+
 
 console.log(`
 ========================================
